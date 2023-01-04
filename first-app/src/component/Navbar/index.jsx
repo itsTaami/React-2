@@ -1,3 +1,8 @@
+
+import "./Navbar.css"
+import "../../component/global.css"
+
+
 const NavItems = [
 
     { name: "Portfolio", link:"#", className:"NavItem"},
@@ -15,10 +20,11 @@ const NavItems = [
     { name: "Contact", link:"#", className:"NavItem"}
 
 ];
-export const Header = ()=>{
+export const Navbar = ()=>{
 
     return(
-        <div>
+        <div className="container">
+             <div className="navbar">
             <div className="left">
             <img src="/images/Logo.svg" alt=""/>
             <img src="/images/Hire Me.svg" alt=""/>
@@ -31,13 +37,14 @@ export const Header = ()=>{
                         <a href="{item.link}" className="{item.className}">{item.name}</a>
                         )
 
-
-
                     })
                 }
-
             </div>
         </div>
+
+        </div>
+       
     );
     
 };
+

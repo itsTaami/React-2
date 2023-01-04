@@ -1,9 +1,9 @@
 // import logo from './logo.svg';
 // import './App.css';
 
-import { Header } from "./component/Header/Header";
-import { Content } from "./component/Content/Content";
-import { Footer } from "./component/Footer/Footer";
+import { Header } from "./component/Header/index";
+import { Content } from "./component/Content/index";
+import { Footer } from "./component/Footer/index";
 
 
 
@@ -13,9 +13,10 @@ function App() {
 
   return(
     <div>
+
       <Header/>
-      <Content/>
-      <Footer/>
+      {/* <Content/>
+      <Footer/> */}
 
     </div>
   )
