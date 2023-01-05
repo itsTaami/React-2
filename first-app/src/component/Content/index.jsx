@@ -1,9 +1,13 @@
-export const Content = ()=>{
+import { Navbar2 } from "../Navbar2";
 
-    return(
-        <div>
-            Content
-        </div>
-    );
-    
+import { ContentBody } from "../Contentbody";
+
+export const Content = () => {
+  return (
+    <div>
+      <Navbar2 />
+
+      <ContentBody />
+    </div>
+  );
 };

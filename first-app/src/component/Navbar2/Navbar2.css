@@ -1,0 +1,30 @@
+.Nav2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  margin-left: 200px;
+  margin-top: 150px;
+}
+
+.Nav2 a {
+  color: black;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: bolder;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 20px;
+}
+
+.Nav2 a:hover {
+  color: #d05270;
+  font-family: Montserrat;
+  border-bottom: 2px solid #d05270;
+  font-size: 30px;
+  font-weight: bolder;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}

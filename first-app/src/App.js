@@ -5,21 +5,16 @@ import { Header } from "./component/Header/index";
 import { Content } from "./component/Content/index";
 import { Footer } from "./component/Footer/index";
 
-
-
 // import UserCard form './component/UserCard';
 
 function App() {
-
-  return(
+  return (
     <div>
-
-      <Header/>
-      {/* <Content/>
-      <Footer/> */}
-
+      <Header />
+      <Content />
+      {/* <Footer/> */}
     </div>
-  )
+  );
 
   // const users = [
 
@@ -39,7 +34,6 @@ function App() {
   // let average = total / users.length;
   // console.log(average);
 
- 
   // return (
 
   //   <div className='App'>
@@ -51,7 +45,6 @@ function App() {
   //       ))
   //     }
   //   </div>
-
 
   // );
 }

@@ -76,9 +76,7 @@
 
 } */
 
-
-.card{
-
+.card {
   background-color: #61dafb;
   width: 25%;
   height: 20vh;
@@ -87,24 +85,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
-img{
-
+img {
   width: 70%;
   height: 150px;
-  border-radius: 20px ;
+  border-radius: 20px;
 }
-.user{
-
+.user {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 90%;
-  margin-left: 25px ;
+  margin-left: 25px;
 }
-.userinfo{
-
+.userinfo {
   justify-content: center;
   display: flex;
   flex-wrap: wrap;

@@ -1,0 +1,17 @@
+.bodytext {
+  width: 40%;
+  background-color: aqua;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.bodytext .btn {
+  background-color: white;
+  color: #d05270;
+  width: 30%;
+  border-bottom: 1px solid #d05270;
+  padding: 20px;
+  text-align: center;
+}
