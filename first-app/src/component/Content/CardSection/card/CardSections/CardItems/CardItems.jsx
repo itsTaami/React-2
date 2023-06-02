@@ -15,7 +15,7 @@ const CardItems = () => {
   return CardItemsL.map((item) => {
     return (
       <div className="CardItems">
-        <CardItemContents image={item.img} />
+        <CardItemContents image={item.pic} />
       </div>
     );
   });

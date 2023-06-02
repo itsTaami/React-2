@@ -1,40 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-.navbar{
-
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-    align-items: center;
-    padding-right: 200px;
-    padding-left: 200px;
-
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+.navbar {
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  align-items: center;
+  /* padding-right: 200px;
+  padding-left: 200px; */
 }
-.left{
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 20%;
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 20%;
 }
 
-.right{
-
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 55%;
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 55%;
 }
 
-a{
-    text-decoration: none;
-    color: grey;
-    font-size: 18px;
-    font-weight: bold;
-    transition: all 0.5s;
+a {
+  text-decoration: none;
+  color: grey;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.5s;
 }
-a:hover{
-
-    color:  #5A47AB;
-    font-size: 20px;
+a:hover {
+  color: #5a47ab;
+  font-size: 20px;
 }
